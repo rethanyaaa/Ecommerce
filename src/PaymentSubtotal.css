@@ -1,0 +1,57 @@
+.subtotal {
+    padding: 20px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .subtotal-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .subtotal-priceDetail {
+    margin-bottom: 20px;
+  }
+  
+  .subtotal-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .subtotal-discount {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .subtotal-applyCoupon {
+    color: #ff3f6c;
+    cursor: pointer;
+  }
+  
+  .subtotal-total {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  
+  .subtotal-button {
+    background-color: #ff3f6c;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .subtotal-button:hover {
+    background-color: #ff2a5a;
+  }
+  

@@ -1,0 +1,121 @@
+.payment-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .payment-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    justify-content: space-between;
+  }
+  
+  .payment-left {
+    flex: 0.7;
+    background-color: white;
+    padding: 20px;
+    margin-right: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .payment-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .address-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .address-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .address-header input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    accent-color: #ff3e6c; /* Custom color for radio button */
+  }
+  
+  .address-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .address-name-tag {
+    display: flex;
+    align-items: center;
+  }
+  
+  .address-name {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .address-tag {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    padding: 3px 8px;
+    margin-left: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  .address-body {
+    margin-top: 10px;
+  }
+  
+  .address-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .address-btn {
+    border: 1px solid #d1d1d1;
+    background-color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #ff3e6c;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .address-btn:hover {
+    background-color: #ffe3e8;
+  }
+  
+  .add-new-address-btn {
+    background-color: white;
+    border: 1px solid #d1d1d1;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #ff3e6c;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-new-address-btn:hover {
+    background-color: #ffe3e8;
+  }
+  
+  .payment-right {
+    flex: 0.3;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  

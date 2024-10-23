@@ -1,0 +1,96 @@
+/* Login.css */
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Full viewport height */
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 20px; /* Add some padding to prevent content from touching edges */
+    box-sizing: border-box; /* Include padding in height calculation */
+  }
+  
+  .login-container {
+    background-color: white;
+    padding: 30px; /* Increased padding for a more spacious feel */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 400px; /* Maximum width to ensure good spacing */
+  }
+  
+  h1 {
+    font-size: 28px; /* Slightly larger heading */
+    margin-bottom: 30px; /* Space below heading */
+    text-align: center; /* Centered heading */
+    color: #333; /* Darker text color for better contrast */
+  }
+  
+  h5 {
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: normal; /* Make the label normal weight */
+    color: #666; /* Lighter text color for labels */
+  }
+  
+  input {
+    width: 100%; /* Full width */
+    padding: 12px; /* Increased padding */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  input:focus {
+    outline: none; /* Remove default outline */
+    border-color: #3f51b5; /* Border color on focus */
+  }
+  
+  button {
+    width: 100%; /* Full width */
+    padding: 12px; /* Increased padding */
+    margin-top: 10px; /* Space between buttons */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text for buttons */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  .login-signInButton {
+    background-color: #3f51b5; /* Blue color */
+    color: white; /* White text */
+  }
+  
+  .login-signInButton:hover {
+    background-color: #303f9f; /* Darker blue on hover */
+  }
+  
+  .login-createAccountButton {
+    background-color: #e0e0e0; /* Light gray for create account */
+    color: black; /* Black text */
+  }
+  
+  .login-createAccountButton:hover {
+    background-color: #bdbdbd; /* Darker gray on hover */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .login-container {
+      padding: 20px; /* Reduced padding for smaller screens */
+    }
+  
+    h1 {
+      font-size: 24px; /* Smaller heading on smaller screens */
+    }
+  
+    input {
+      padding: 10px; /* Reduced padding for smaller screens */
+    }
+  
+    button {
+      padding: 10px; /* Reduced padding for smaller screens */
+    }
+  }
+  

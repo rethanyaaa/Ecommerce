@@ -1,0 +1,27 @@
+.home__container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .home__header {
+    text-align: center;
+    background-color: #ff3f6c;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .home__header h1 {
+    font-size: 36px;
+  }
+  
+  .home__header p {
+    font-size: 18px;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  

@@ -1,0 +1,93 @@
+.checkoutProduct {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.checkoutProduct:hover {
+  background-color: #f9f9f9; /* Light grey background on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.checkoutProduct-image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+  transition: transform 0.3s ease;
+}
+
+.checkoutProduct-image:hover {
+  transform: scale(1.05); /* Slight zoom-in on hover */
+}
+
+.checkoutProduct-info {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.checkoutProduct-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.checkoutProduct-title:hover {
+  color: #ff4081; /* Pink highlight on hover */
+}
+
+.checkoutProduct-price {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #000;
+}
+
+.checkoutProduct-rating p {
+  display: inline-block;
+  color: #f0c14b;
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+.checkoutProduct-rating p:hover {
+  animation: pulse 0.5s ease infinite; /* Pulse effect on rating stars */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Styling the "Remove" button */
+.checkoutProduct-info button {
+  background-color: #ff4081;
+  border: 1px solid #ff4081;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 4px;
+}
+
+.checkoutProduct-info button:hover {
+  background-color: #ff1c6e; /* Darker pink on hover */
+  transform: scale(1.05); /* Slight zoom-in effect on hover */
+}
+
+ 
